@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(4, 4, 46);
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(11, 3, 32);
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+nav ul li
+{
+    list-style: none;
+    margin: 0 25px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover
+{
+    color: rgb(157, 157, 233);
+    font-size: 17px;
+}
+.left
+{
+    font-size: 25px;
+}
+main hr
+{
+    border: 0;
+    background-color: rgb(170, 120, 216);
+    height: 1.5px;
+    margin: 60px 84px;
+}
+.first
+{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 50px 0;
+}
+.first div
+{
+    width: 30%;
+}
+.leftsection
+{
+    /* background-color: red; */
+    font-size: 50px;
+    margin: 70px 0;
+}
+.leftsection .btn
+{
+    margin-top: 40px;
+    padding: 12px;
+    background-color: rgb(4, 4, 46);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.leftsection .btn:hover
+{
+    background-color: rgb(146, 145, 145);
+    color: rgb(42, 28, 72);
+    border: 2px solid rgb(42, 28, 72);
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.rightsection img
+{
+    width: 100%;
+    margin-top: 5px; 
+}
+.name
+{
+    color: violet;
+}
+
+.second
+{
+    max-width: 80vw;
+    margin: auto;
+    height: 400px;
+}
+.second h1
+{
+    font-size: 27px;
+}
+
+.second .box
+{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.second .vertical
+{
+    height: 50px;
+    width: 1px;
+    background-color: white;
+    margin: 0 200px;
+}
+.title
+{
+    top: 60px;
+    position: relative;
+    width: 200px;
+}
+
+footer
+{
+    background-color: rgb(6, 1, 26);
+    height: 100px;
+}
+
+.foot
+{
+    display: flex;
+    padding: 25px 122px;
+}
+
